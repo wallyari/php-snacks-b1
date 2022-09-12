@@ -18,7 +18,7 @@
         }
     }
 
-    var_dump($randomNumbe);
+    var_dump($randomNumb);
     ?>
     
 </body>
