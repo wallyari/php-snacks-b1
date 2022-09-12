@@ -29,7 +29,7 @@ $classe = [
     for ($i=0; $i < count($classe) ; $i++) { 
         $alunno = $classe[$i];
         $mediaVoti = array_sum($alunno['voti']) / count($alunno['voti']) ;
-        echo $alunno['name'] . ' ' . $alunno['lastaname'] . ' | ' . 'voti:' . ' ' . number_format($mediaVoti, 2) . '</br>';
+        echo $alunno['name'] . ' ' . $alunno['lastname'] . ' | ' . 'voti:' . ' ' . number_format($mediaVoti, 2) . '</br>';
     
     }
  ?>
